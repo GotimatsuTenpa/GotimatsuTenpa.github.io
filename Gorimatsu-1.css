@@ -1,0 +1,296 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.container {
+  //    
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+
+}
+
+
+.menu-icon{
+    display:none;
+}
+
+
+
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color:black;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+    
+}
+
+
+
+.header-left{
+  float:left;
+}
+
+
+.header-left h1{
+    float:right;
+    color:white;
+    padding:5px 0px 0px 50px;
+    font-family:"impact";
+    font-size:50px;
+
+}
+
+
+.header-left h1:hover{
+    cursor:pointer;
+}
+
+
+
+.burger-btn{
+    display:none;
+}
+
+.nav-wrapper{
+     display:none;
+}
+
+.header-right{
+  float: right;
+  margin-right: -25px;
+}
+
+
+
+.header-right a {
+  line-height: 100px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-family:"impact";
+  font-size:25px;
+}
+
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+#input{
+ transform:scale(10);
+ display:none;    
+}
+
+
+#content{
+  background-color: aqua;
+  display:none;    
+}
+
+
+
+.top-wrapper{
+ background-color:black;
+ text-align:center;
+ height:800px; 
+  
+}
+
+
+
+.logo{
+ width: 20%;
+ border-radius:40%;
+}
+
+
+.top-wrapper{
+ background-color:black;
+ text-align: center;
+ height:1200px;  
+ padding:0px 0px;
+}
+
+
+.top-wrapper h1 {
+  font-size:70px;
+  letter-spacing: 5px;
+  color:white;
+  padding-top:200px;
+  font-family:"impact";
+}
+
+
+
+
+.top-wrapper p {
+  color:white;
+  font-size:20px;
+}
+
+
+
+
+
+
+.port-wrapper{
+ background-color:black;
+ text-align: center;
+ height:800px;  
+ padding:5px 0px;
+}
+
+
+.port-wrapper h1 {
+  font-size: 70px;
+  letter-spacing: 5px;
+  color:white;
+  padding-top:200px;
+  font-family:"impact";
+}
+
+
+.port-wrapper p {
+  color:white;
+  font-size:20px;
+}
+
+
+
+
+
+
+
+
+
+.blog-wrapper{
+ background-color:black;
+ text-align: center;
+ height:800px;  
+ padding:5px 0px;
+ font-family:"impact";
+}
+
+
+.blog-wrapper h1 {
+  font-size: 70px;
+  letter-spacing: 5px;
+  color:white;
+  padding-top:200px;
+}
+
+
+
+
+.blog-wrapper p {
+  color:white;
+  font-size:20px;
+}
+
+
+
+
+
+.SNS-wrapper{
+ background-color:black;
+ text-align: center;
+ height:800px;  
+ padding:5px 0px;
+ font-family:"impact";
+}
+
+
+
+
+
+.SNS-wrapper h1 {
+  font-size: 70px;
+  letter-spacing: 5px;
+  color:white;
+  padding-top:200px;
+}
+
+
+
+
+.SNS-wrapper p {
+  color:white;
+  font-size:20px;
+}
+
+
+
+
+
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+.twitter {
+  background-color: #55acee;
+  width:120px;
+  height:100px;  
+  margin-right:100px; 
+ 
+}
+
+
+
+.youtube {
+  background-color: red;
+  width:120px;
+  height:100px;  
+}
+
+
+
+
+
+.footercontainer{
+    background-color:black;
+    height:120px;
+    padding:5px 0px;
+}
+
+.footercontainer h1{
+  color:white;
+  font-family:"impact";
+}
+
+
+.footercontainer p{
+ color:white;
+}
+
